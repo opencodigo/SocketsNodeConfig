@@ -1,0 +1,32 @@
+
+tsc --init
+
+npm init
+
+npm i express
+
+npm i @types/express @types/node --save-dev
+
+npm i body-parser
+
+
+PROYECT CREATED BEFORE
+
+tsc -w
+
+npm start
+
+CREATE FILE IN BOOT FILE
+
+ng new AngularSockets
+
+npm i bootstrap jquery popper.js 
+cdn font awesone 4 y 5
+cdn animate css
+estilos bootwatch
+archivo rutas
+
+
+ng g c components/navbar --skipTests
+ng g c components/home --skipTests
+
