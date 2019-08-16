@@ -1,0 +1,7 @@
+create db
+create table 
+
+======== ejecutar este comando para habilitar la conexion con MySql =========
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+
