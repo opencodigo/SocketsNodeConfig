@@ -1,4 +1,4 @@
-
+%%%%%%%%%%%%% CREANDO UN SERVIDOR NODE.JS %%%%%%%%%%%%%%%
 tsc --init
 
 npm init
@@ -9,8 +9,9 @@ npm i @types/express @types/node --save-dev
 
 npm i body-parser
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-PROYECT CREATED BEFORE
+-------- PROYECT CREATED ANGULAR FRONTEND ---------
 
 tsc -w
 
@@ -29,4 +30,47 @@ archivo rutas
 
 ng g c components/navbar --skipTests
 ng g c components/home --skipTests
+
+++++++++++++++++++++++++++++++++++++++
+
+////subiendo al server heroku /////
+
+1: copiar los archivos package-lock.json y package.json  a la carpeta ./dist
+
+2:  cambiar la ruta de inicio del server en package.json a:  "node index.js"
+
+
+Install the Heroku CLI
+Download and install the Heroku CLI.
+
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+Clone the repository
+Use Git to clone open-back-chat's source code to your local machine.
+
+$ heroku git:clone -a open-back-chat
+$ cd open-back-chat
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+&&&&&&&& CAMBIOS A REALIZAR &&&&&&
+
+
+
+
+
+
+
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
