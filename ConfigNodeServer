@@ -18,10 +18,18 @@ npm install --save sequelize
 ------------  instalando mysql2 -------------------
 npm i mysql2
 
-
-
 ---------------------- si tienes que limpar el cache de npm -------------------------
 npm cache clean --force
+
+------------- types para sequelize ---------------
+npm i @types/sequelize --save-dev
+
+---------- types para crypto de node.js ------------
+npm i @types/crypto-js
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
