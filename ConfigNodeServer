@@ -9,6 +9,9 @@ npm i @types/express @types/node --save-dev
 
 npm i body-parser
 
+------------------ Para socket io -------------------
+npm i ngx-socket-io
+
 -------------------- si vas a usar sequelize --------------------
 npm install --save sequelize
 
