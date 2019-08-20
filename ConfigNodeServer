@@ -9,6 +9,17 @@ npm i @types/express @types/node --save-dev
 
 npm i body-parser
 
+-------------------- si vas a usar sequelize --------------------
+npm install --save sequelize
+
+------------  instalando mysql2 -------------------
+npm i mysql2
+
+
+
+---------------------- si tienes que limpar el cache de npm -------------------------
+npm cache clean --force
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 -------- PROYECT CREATED ANGULAR FRONTEND ---------
